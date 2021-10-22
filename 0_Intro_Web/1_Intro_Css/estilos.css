@@ -1,7 +1,19 @@
 /* Selector por etiqueta */
+/* Afectamos a todo lo que esté dentro de body */
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Selector por etiqueta */
 h1 {
     color: brown;
     background-color: gold;
+    font-size: 100px;
+    text-align: center;
+    border: navy 1px dashed;
+    font-weight: 100;
+    height: 500px;
+    width: 800px;
 }
 
 /* Selector por etiqueta */
@@ -27,3 +39,21 @@ p {
     color:rebeccapurple;
     background-color: salmon;
 }
+
+.link-seccion {
+    color:indigo;
+    background-color:khaki;
+}
+
+/* Selector por id */
+#elemento-activo {
+   color: khaki;
+   background-color: indigo;
+}
+
+/* Selector por id */
+#enlace-externo {
+    color:maroon;
+    background-color: mediumspringgreen;
+}
+
