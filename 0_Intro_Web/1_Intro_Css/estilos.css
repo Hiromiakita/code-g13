@@ -1,0 +1,29 @@
+/* Selector por etiqueta */
+h1 {
+    color: brown;
+    background-color: gold;
+}
+
+/* Selector por etiqueta */
+/*h2 {
+    color: hotpink;
+    background-color: lightskyblue;
+}*/
+
+/* Selector por etiqueta */
+p {
+    color: mediumblue;
+    background-color: mediumturquoise;
+}
+
+/* Selector por clase */
+.subt-t1 {
+    color:midnightblue;
+    background-color: moccasin;
+}
+
+/* Selector por clase */
+.subt-t2 {
+    color:rebeccapurple;
+    background-color: salmon;
+}
