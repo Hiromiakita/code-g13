@@ -1,0 +1,69 @@
+main{
+  width: 700px;
+  height: 800px;
+  border: 10px solid black;
+  margin: 0 auto;
+}
+
+footer{  
+  font-size: 20px;
+  font-weight: bold;
+  width: 200px;
+  margin: 0 auto;
+}
+
+#titulo{
+  background-color: blue;
+  color: white;
+}
+
+section{
+  background-color: coral;
+  background-image: url("https://i.pinimg.com/474x/13/30/fa/1330facf92bd23759a718a3ce8886e80.jpg");
+  background-repeat: no-repeat;
+  background-size: 100px 100px;
+  height: 300px;
+}
+
+.nota{
+  background-color: cadetblue;
+}
+
+.capa__1{
+  width: 300px;
+  height: 150px;
+  background-color: red;  
+  position: relative;
+  top: 100px;
+  z-index: 10;
+}
+
+.capa__2{
+  width: 300px;
+  height: 150px;
+  background-color: royalblue;
+  position: relative;  
+  
+}
+
+.boton_ir{
+  width: 180px;
+  height: 40px;
+  background-color: royalblue;
+  cursor: pointer;
+}
+
+button{
+  width: 180px;
+  height: 40px;
+  background-color: red;
+  cursor: pointer;
+  border-radius: 500px;
+  border: none;
+  color: white;
+}
+
+button:hover{
+  background-color: turquoise;
+  margin: 10px;
+}
