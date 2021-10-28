@@ -1,0 +1,38 @@
+body {
+    background-color: lightblue;
+    height: 4000px;
+}
+
+.rojo {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    /* Static: Comportamiento normal en el documento */
+    position: static;
+}
+
+.verde {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    /* Static: Comportamiento normal en el documento y omite las propiedades top, left, bottom y right */
+    /* position: static; */
+
+    /* relative: Se comienza a mover a partir de su ubicación original */
+    /* position: relative; */
+
+    /* absolute: Se comienza a mover a partir de el elemento padre */
+    /* position: absolute; */
+
+    /* fixed: Se comienza a mover el elemento respecto al viewport (pantalla del explorador) */
+    /* position: fixed; */
+
+    /* sticky: Se comienza a mover una vez que tiene contacto con los bordes del viewport */
+    /* position: sticky; */
+    
+    
+    /* top: 20px;
+    bottom: 70px;
+    left: 700px;
+    right: 50px; */
+}
