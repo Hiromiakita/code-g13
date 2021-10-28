@@ -1,0 +1,17 @@
+.contenedor {
+    /* Nuestro contenedor se vuelve flexible */
+    /* Nos permite manipular de sus elementos hijos */
+    /* Por default el orden de los hijos es en row -> fila (horizontal) */
+    display: flex;
+    /* flex-direction: column; */
+
+    /* Mover elementos de acuerdo a la dirección (horizontal) */
+    justify-content: space-evenly;
+
+    /* Mover elementos de acuerdo a la dirección (vertical) */
+    align-items: center;
+}
+
+#ejemplo {
+    background-color: mediumaquamarine;
+}
