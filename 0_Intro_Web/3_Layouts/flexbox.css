@@ -1,3 +1,8 @@
+.contenedor1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .contenedor {
     /* Nuestro contenedor se vuelve flexible */
     /* Nos permite manipular de sus elementos hijos */
@@ -10,6 +15,9 @@
 
     /* Mover elementos de acuerdo a la dirección (vertical) */
     align-items: center;
+
+    /* Nowrap es el comportameinto automático de los items */
+    flex-wrap: wrap;
 }
 
 #ejemplo {
