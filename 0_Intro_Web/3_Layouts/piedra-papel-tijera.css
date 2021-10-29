@@ -1,0 +1,30 @@
+/* Eliminamos los márgenes por default que pone el explorador a TODOS los elementos */
+* {
+    margin: 0;
+}
+
+/* Afectamos a más de un elemento del documento HTML */
+h1, .texto-marcador {
+    text-align: center;
+}
+
+.marcador {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.elementos-izquierda {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 100px;
+    height: auto;
+}
