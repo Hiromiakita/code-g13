@@ -6,7 +6,7 @@ html, body{
   font-size: 16px;
 }
 /* el porcentaje ocupa la medida del padre */
-.padre{
+.padre h1{
   font-size: 30px;
   width:100%;
   height: 400px;
@@ -14,15 +14,36 @@ html, body{
 }
 
 .hijo{
+  /* 
+    la unidad rem tomara como base el tamaño de letra del elemento hmtl o body
+    recuerda que por defecto el tamaño base es de 16px
+   */
   width: 30rem;
   height: 100rem;
   background-color: white;
   color: black;
 }
 
+/* 
+  en elementos como botones es mejor usar medidas que podemos controlar 
+  como px, rem o em 
+*/
+
 button{
   width: 8.875rem;
 }
+
+/* 
+  ten cuidado de no abusar con las medias query ya que añaden complejidad al codigo
+ */
+
+ /* Las reglas media queries son un tipo de reglas de css que permiten crear un bloque de código
+  que solo se procesara en los dispositivos que cumplan los criterios especificados  */
+
+ /* 
+  a la media query le damos un punto de quiebre (breakpoint) y lo que harà es que 
+  esta dentro de los corchetes 
+ */
 
 @media (max-width: 500px) {
   .hijo{
