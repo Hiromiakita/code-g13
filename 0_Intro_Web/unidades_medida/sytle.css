@@ -1,0 +1,39 @@
+html, body{
+  background-color: rgb(155, 155, 241);
+  /* rem em basan su tamañao en relacion al tamaño de la fuente  */
+  /* em basara su tamaño en relacion a la fuente mas cercana */
+  /* el font size predeterminado de la mayoria de los exploradores es de 16px */
+  font-size: 16px;
+}
+/* el porcentaje ocupa la medida del padre */
+.padre{
+  font-size: 30px;
+  width:100%;
+  height: 400px;
+  background-color: tomato;
+}
+
+.hijo{
+  width: 30rem;
+  height: 100rem;
+  background-color: white;
+  color: black;
+}
+
+button{
+  width: 8.875rem;
+}
+
+@media (max-width: 500px) {
+  .hijo{
+    visibility: hidden;
+    background-color: crimson;
+    color: chocolate;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .hijo{
+    background-color: darkblue;
+  }
+}
