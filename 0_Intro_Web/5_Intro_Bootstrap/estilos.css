@@ -1,0 +1,38 @@
+.bg-pink {
+    background-color: hotpink;
+}
+
+.texto-1 {
+    color:indianred;
+}
+
+.texto-2 {
+    color: lime;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.texto-3 {
+    color: white;
+    font-size: 50px;
+}
+
+.centrar-texto {
+    text-align: center;
+}
+
+.borde-rojo {
+    border: red 3px solid;
+}
+
+.no-bordes {
+    border: none;
+}
+
+.redondear {
+    border-radius: 10px;
+}
+
+.padding-5 {
+    padding: 5rem;
+}
