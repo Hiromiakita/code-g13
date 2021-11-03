@@ -1,0 +1,11 @@
+.bg-orange {
+    background-color: orange;
+}
+
+.btn-orange {
+    color: white;
+    background-color: orange;
+    border:orange 2px;
+}
+
+/* la palabra !important sólo la utilizaremos cuando la clase que sustituimos no se pueda eliminar del elemento */
