@@ -16,6 +16,7 @@
 
 <!-- NOTAS DE BOOTSTRAP -->
 <!-- Si voy a añadir una clase propia, debe ir hasta la derecha -->
+
 <body class="bg-dark">
     <!-- <nav class="navbar navbar-expand-lg navbar-light bg-success">
         <div class="container-fluid">
@@ -107,7 +108,7 @@
     <button type="button" class="btn btn-success btn-lg btn-orange">5</button>
 
     <div class="d-grid gap-2">
-        <button class="btn btn-primary" type="button">Button</button>
+        <button class="btn btn-purple" type="button">Button</button>
         <button type="button" class="btn btn-dark">2</button>
     </div>
 
@@ -163,23 +164,24 @@
         <div class="card-header">
             Featured
         </div>
-        <div class="card-body">
-            <h5 class="card-title">Special title treatment</h5>
+        <div class="card-body bg-dark text-white">
+            <h5 class="card-title weight-900">Special title treatment</h5>
             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <a href="#" class="btn btn-primary weight-900">Go somewhere</a>
         </div>
     </div>
 
-    <!-- <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <!-- Carrusel con imágenes tomando referencia su altura. Carrusel con un ancho definido -->
+    <!-- <div id="carouselExampleControls" class="carousel slide my-carrousel" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="https://pbs.twimg.com/media/Ecgnk8jXYAI8c_M.jpg" class="d-block w-100" alt="...">
+                <img src="https://pbs.twimg.com/media/Ecgnk8jXYAI8c_M.jpg" class="d-block size-img-carr mx-auto" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="https://www.litter-robot.com/blog/wp-content/uploads/2019/06/Khao_Manee.png" class="d-block w-100" alt="...">
+                <img src="https://www.litter-robot.com/blog/wp-content/uploads/2019/06/Khao_Manee.png" class="d-block size-img-carr mx-auto" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="http://www.storytrender.com/wp-content/uploads/2019/08/CATERS_CAT_WITH_DIFFERENT_COLOURED_EYES_07.jpg" class="d-block w-100" alt="...">
+                <img src="http://www.storytrender.com/wp-content/uploads/2019/08/CATERS_CAT_WITH_DIFFERENT_COLOURED_EYES_07.jpg" class="d-block size-img-carr mx-auto" alt="...">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
@@ -193,6 +195,28 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div> -->
+
+    <!-- Carrusel con imágenes de fondo para los divs -->
+    <div id="carouselExampleControls2" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active elem-carr-1">
+            </div>
+            <div class="carousel-item elem-carr-2">
+            </div>
+            <div class="carousel-item elem-carr-3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
 
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
@@ -221,6 +245,17 @@
         </button>
     </div>
 
+
+    <img class="img-fluid img-thumbnail rounded mx-auto d-block"
+        src="https://cdn.pixabay.com/photo/2018/08/20/20/00/sky-3619815_960_720.jpg" alt="">
+
+
+    <img class="img-thumbnail" src="https://i.blogs.es/cbfd5d/sky-children-light-4/1366_2000.jpg" alt="">
+
+    <div class="text-center">
+        <img src="https://play-lh.googleusercontent.com/3-AOeSSoqN3IK750gMz4FwOJw0MnIT-_dSA2Ujs9MzcS5bMaV9bwTBwH2udoEmBsBKY"
+            class="rounded img-fluid" alt="...">
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
