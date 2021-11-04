@@ -35,26 +35,21 @@
 
 /* la palabra !important sólo la utilizaremos cuando la clase que sustituimos no se pueda eliminar del elemento */
 
-.elem-carr-1 {
+.elem-carr {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 60rem;
+}
+
+#elem-carr-1 {
     background-image: url("https://pbs.twimg.com/media/Ecgnk8jXYAI8c_M.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 60rem;
 }
 
-.elem-carr-2 {
+#elem-carr-2 {
     background-image: url("https://www.litter-robot.com/blog/wp-content/uploads/2019/06/Khao_Manee.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 60rem;
 }
 
-.elem-carr-3 {
+#elem-carr-3 {
     background-image: url("http://www.storytrender.com/wp-content/uploads/2019/08/CATERS_CAT_WITH_DIFFERENT_COLOURED_EYES_07.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 60rem;
 }
