@@ -1,0 +1,16 @@
+
+// https://www.w3schools.com/jsref/jsref_obj_string.asp
+
+var nombre = "Carlos Alfonso Chavez"
+
+console.log(nombre.toLowerCase())
+console.log(nombre.toUpperCase())
+console.log(nombre.slice(0, 6))
+console.log(nombre.includes("Alfonso"))
+console.log(nombre.replace("Alfonso", "Hola"))
+console.log(nombre.startsWith("Carlos"))
+console.log(nombre.length)
+
+console.log(nombre.includes("Carlos") == true )
+
+

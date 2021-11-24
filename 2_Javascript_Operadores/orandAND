@@ -1,0 +1,32 @@
+// Operador && and
+var a = 10
+var b = 20
+var c = 30
+var d = 40
+
+console.log(a < b, "condicion 1")
+console.log(c < d, "condicion 2")
+console.log(a > d, "condicion 3")
+
+console.log(a < b && c < d && a > d)
+
+// Operador || OR *uso cotidiano de OR
+
+var PORT = null || 4000
+var nombre = 'Carlos'|| 'anonimo'
+
+console.log(PORT)
+console.log(nombre)
+
+//  Operador ! not
+var isLoding = true
+console.log(!isLoding)
+
+console.log(!!true === !false)
+
+
+
+
+
+
+

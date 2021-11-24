@@ -1,0 +1,13 @@
+var numero1 = 10
+var numero2 = '10'
+
+console.log(numero1 >= numero2)
+
+// == doble igualdad * siempre tratar de usar el triple igual
+
+console.log(numero1 === numero2)
+console.log(numero1 == numero2)
+
+// !== es diferente a 
+var llueve = false
+console.log(llueve !== true)

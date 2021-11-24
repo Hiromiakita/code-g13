@@ -1,0 +1,10 @@
+/* UNDEFINED
+Una variable a la que no se le ha asignado valor, o no se ha declarado en absoluto (no se declara, no existe) son de tipo undefined.
+*/
+
+/* NULL
+El valor null es un literal de Javascript que representa intencionalmente un valor nulo o "vacío". Solemos indicar cuando una operación no devuelve resultados relevantes.
+*/
+
+var personal
+console.log(typeof personal !== null )

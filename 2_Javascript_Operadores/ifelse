@@ -1,0 +1,28 @@
+// declaracion if and else
+
+// if(a < b){
+// //   ejecutar si la condicion es verdadera
+//   console.log("es verdad")
+// } else {
+// //   ejecutar si la condicion es falsa
+//   console.log("es mentira")
+// }
+
+var a = 10
+var b = 20
+var c = 30
+
+// https://www.w3schools.com/js/js_switch.asp es parecido al if else if
+
+if (a > b){
+  console.log("si es mayor")
+} else if(c > b){
+  console.log("si es mayor 2")  
+} else {
+  console.log("si es menor")
+}
+
+
+
+
+

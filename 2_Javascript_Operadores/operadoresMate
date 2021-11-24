@@ -1,0 +1,28 @@
+// Operador de Multiplicacion * transforma los tipos
+let precio1 = 10
+let precio2 = 2
+
+console.log(precio1 * precio2)
+
+// Operador + concatenar dos variables
+// Operador + Sumar dos valores
+// Operador + Cambio el tipo de valor a un number
+
+console.log(typeof +precio2)
+
+// Operador - Menos resta dos numeros
+console.log(precio1 - precio2)
+
+// Operador - division divide dos numeros
+console.log(precio1 / precio2)
+
+// Operador % residuo de dos numeros
+console.log(precio1 % precio2)
+
+// Operador ** Exponencial
+console.log(precio1 ** precio2)
+
+
+
+
+
