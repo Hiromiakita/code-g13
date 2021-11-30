@@ -171,38 +171,104 @@ var edad = 1;
 // ARREGLOS son una lista de elementos no necesariamente del mismo tipo
 // Lista entre corchetes, separando cada elemento con una coma
 
-var nombreA = 'Alan';
-var nombreB = 'Victoria';
-var nombreC = 'Walter';
+// var nombreA = 'Alan';
+// var nombreB = 'Victoria';
+// var nombreC = 'Walter';
 
-// Crear arreglos
-var nombres = ['Alan', 'Victoria', 'Walter'];
-var edades = [19, 19, 29, 9, 0];
-var cosas = [':D', 10, true, ['a', 'e', 'i'], ['x', 'y', 'z']];
-var paises = [];
+// // Crear arreglos
+// var nombres = ['Alan', 'Victoria', 'Walter'];
+// var edades = [19, 19, 29, 9, 0];
+// var cosas = [':D', 10, true, ['a', 'e', 'i'], ['x', 'y', 'z']];
+// var paises = [];
 
-// Acceder a una posición del arreglo
+// // Acceder a una posición del arreglo
 
-console.log(nombreA);
-// mostramos arreglo completo
-console.log(nombres);
-// mostramos una posición del arreglo
-console.log(nombres[0]);
+// console.log(nombreA);
+// // mostramos arreglo completo
+// console.log(nombres);
+// // mostramos una posición del arreglo
+// console.log(nombres[0]);
 
-console.log(cosas);
-console.log(cosas[3]);
-console.log(cosas[3][2]);
-console.log(cosas[4][1]);
+// console.log(cosas);
+// console.log(cosas[3]);
+// console.log(cosas[3][2]);
+// console.log(cosas[4][1]);
 
-// Métodos
-console.log(paises);
-paises.push('MX');
-console.log(paises);
-paises.push('USA');
-console.log(paises);
-paises[0] = 'IND';
-console.log(paises);
+// // Métodos
+// console.log(paises);
+// paises.push('MX');
+// console.log(paises);
+// paises.push('USA');
+// console.log(paises);
+// paises[0] = 'IND';
+// console.log(paises);
 
 
 // CICLOS
 
+// for
+// while
+// do while
+
+// map - forEach - filter POR VER
+// iteración -> vuelta
+// for (valor inicial del contador con una variable; valor tope del contador; incremento del contador) {
+
+// }
+
+// for(var i = 0; i < 10; i++ ) {
+//     console.log('hola' + i);
+// }
+
+// for(var i = 50; i < 100; i++) {
+//     console.log(i);
+// }
+
+// modulo num%num nos da como resultdo el residuo de la división de esos dos números
+
+// console.log(10%3);
+// console.log(10%2);
+// console.log(7%2);
+// console.log(99%2);
+
+
+// for(var i = 0; i <= 100; i++) {
+//     if(i%2 === 0) {
+//         console.log(i + ' num par');
+//     } else {
+//         console.log(i + ' num impar');
+//     }
+// }
+
+// console.log(resultado);
+
+// tabla del 2
+
+// 2 x 1 = 2
+// 2 x 2 = 4
+// 2 x 3 = 6
+// 2 x 4 = 8
+// 2 x 5 = 10
+// 2 x 6 = 12
+// 2 x 7 = 14
+// 2 x 8 = 16
+// 2 x 9 = 18
+// 2 x 10 = 20
+
+for(var i = 0; i <= 10; i++) {
+    var base = 3;
+    console.log(base + ' x ' + i + ' = ' + base*i);
+}
+
+var dias = ['lunes', 'martes', 'miercoles', 'jueves','viernes', 'sábado', 'domingo'];
+// console.log(dias[0]);
+// console.log(dias[1]);
+// console.log(dias[2]);
+
+for(var i = 0; i < dias.length; i++) {
+    console.log(dias[i])
+}
+
+
+// Crea un programa que solicite al usuario letras o palabras, si es así guardar el resultado. Para terminar de capturar el usuario no debe escribir valor alguno. Al terminar de capturar, mostrar en pantalla la concatenación de todas las palabras capturadas.
+// Crea un programa que solicite al usuario un día de la semana (ej: lunes, jueves, domingo, etc). El programa mostrará un mensaje personalizado para cada día de la semana por medio de un alert. Y seguirá pidiendo al usuario introducir otro día. En caso de que el día introducido sea domingo mostrar al usuario el mensaje “Ve a descansar” y terminar la captura de información.
