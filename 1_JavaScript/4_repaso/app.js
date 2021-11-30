@@ -109,63 +109,100 @@ var edad = 1;
 //     console.log('son diferentes!!');
 // }
 
-// if - else los utilizamos para tener al menos dos opciones (para true y para false)
+// // if - else los utilizamos para tener al menos dos opciones (para true y para false)
 
-var nombre = ':S';
+// var nombre = ':S';
 
-if(nombre === 'Luis') {
-    console.log('Bienvenido, Luis :D');
-} else {
-    console.log('Bienvenido extrañe');
-}
-
-var costoBoleto = 1;
-if(costoBoleto === 100) {
-    console.log('tu boleto es válido');
-} else {
-    console.log('tu boleto es inválido');
-}
-
-// if - else if - else -> tengo más de una opción con válida
-
-if(costoBoleto > 600) {
-    console.log('tu boleto es zona roja');
-} else if (costoBoleto > 400) {
-    console.log('tu boleto es zona azul');
-} else if( costoBoleto > 200) {
-    console.log('tu boleto es zona verde');
-} else {
-    console.log('tu boleto es de la zona general');
-}
-
-// ejemplo prompt nombre
-
-// Tomamos el valor ingresado en el promt
-// var nombreIngresado = prompt('Ingresa tu nombre');
-// // Quitamos los espacios vacíos
-// var nombreSinEspacios = nombreIngresado.trim();
-
-// // evaluamos si nombreIngresado tiene al menos
-// if(nombreSinEspacios && nombreSinEspacios != ' ' && nombreSinEspacios.length > 6) {
-//     console.log('usuario válido');
+// if(nombre === 'Luis') {
+//     console.log('Bienvenido, Luis :D');
 // } else {
-//     console.log('nombre inválido');
+//     console.log('Bienvenido extrañe');
 // }
 
-// tomar valor y convertirlo 
-// toUpperCase();
-// toLowerCase();
+// var costoBoleto = 1;
+// if(costoBoleto === 100) {
+//     console.log('tu boleto es válido');
+// } else {
+//     console.log('tu boleto es inválido');
+// }
 
-var opcion = prompt("Ingresa 'a' para un retiro o 'b' para salir");
-opcion = opcion.toLowerCase();
+// // if - else if - else -> tengo más de una opción con válida
+
+// if(costoBoleto > 600) {
+//     console.log('tu boleto es zona roja');
+// } else if (costoBoleto > 400) {
+//     console.log('tu boleto es zona azul');
+// } else if( costoBoleto > 200) {
+//     console.log('tu boleto es zona verde');
+// } else {
+//     console.log('tu boleto es de la zona general');
+// }
+
+// // ejemplo prompt nombre
+
+// // Tomamos el valor ingresado en el promt
+// // var nombreIngresado = prompt('Ingresa tu nombre');
+// // // Quitamos los espacios vacíos
+// // var nombreSinEspacios = nombreIngresado.trim();
+
+// // // evaluamos si nombreIngresado tiene al menos
+// // if(nombreSinEspacios && nombreSinEspacios != ' ' && nombreSinEspacios.length > 6) {
+// //     console.log('usuario válido');
+// // } else {
+// //     console.log('nombre inválido');
+// // }
+
+// // tomar valor y convertirlo 
+// // toUpperCase();
+// // toLowerCase();
+
+// var opcion = prompt("Ingresa 'a' para un retiro o 'b' para salir");
+// opcion = opcion.toLowerCase();
 
 
-if(opcion === 'a') {
-    console.log('HACER RETIRO');
-} else if (opcion === 'b') {
-    console.log('SALIENDOOOOO :C');
-} else {
-    console.log('opción inválida');
-}
+// if(opcion === 'a') {
+//     console.log('HACER RETIRO');
+// } else if (opcion === 'b') {
+//     console.log('SALIENDOOOOO :C');
+// } else {
+//     console.log('opción inválida');
+// }
 
-// ARREGLOS
+// ARREGLOS son una lista de elementos no necesariamente del mismo tipo
+// Lista entre corchetes, separando cada elemento con una coma
+
+var nombreA = 'Alan';
+var nombreB = 'Victoria';
+var nombreC = 'Walter';
+
+// Crear arreglos
+var nombres = ['Alan', 'Victoria', 'Walter'];
+var edades = [19, 19, 29, 9, 0];
+var cosas = [':D', 10, true, ['a', 'e', 'i'], ['x', 'y', 'z']];
+var paises = [];
+
+// Acceder a una posición del arreglo
+
+console.log(nombreA);
+// mostramos arreglo completo
+console.log(nombres);
+// mostramos una posición del arreglo
+console.log(nombres[0]);
+
+console.log(cosas);
+console.log(cosas[3]);
+console.log(cosas[3][2]);
+console.log(cosas[4][1]);
+
+// Métodos
+console.log(paises);
+paises.push('MX');
+console.log(paises);
+paises.push('USA');
+console.log(paises);
+paises[0] = 'IND';
+console.log(paises);
+
+
+// CICLOS
+
