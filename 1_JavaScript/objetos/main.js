@@ -112,3 +112,41 @@ console.log(diccionario.informativas)
 // NOTACION DE CORCHETES
 // se anota el nombre de la llave
 console.log(diccionario[curso])
+
+
+// EJEMPLO EXTRA //
+
+
+const ovejitas = [
+  { name: 'Noa', color: 'azul' },
+  { name: 'Euge', color: 'rojo' },
+  { name: 'Navidad', color: 'rojo' },
+  { name: 'Ki Na Ma', color: 'rojo'}
+]
+
+const perros = [
+  { name: 'Bango', color: 'rojo' },
+  { name: 'Cliffort', color: 'rojo' },
+]
+      
+
+// cuando queramos iterar un array que contenga objetos hay que usar
+// Object.values
+// la flecha es un return implicto cuando es en la misma linea
+
+function contarOvejas(ovejas) {
+  // aquí tu magia
+  const filter = Object.values(ovejas).filter(({ name, color }) => {
+      if (color === 'rojo'){
+        
+        if (name.includes("a") || name.includes("n")){
+           return { name, color }
+        }
+      }
+  })
+  return filter
+}
+
+
+contarOvejas(ovejitas)
+
