@@ -6,9 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
 
-<body>
+<body id="body">
     <!-- En un nuevo doc de HTML
         insertar los siguientes elementos:
         Un h1 con el título
@@ -18,6 +19,12 @@
         Botón 1: Hacer que cada que demos click se cambie el fondo entre tres colores difrentes
         Botón 2: Hacer que una imagen crezca cada que le doy click
         Botón 3: Con ayuda de un prompt, escribir "Hola"+ entrada en la etiqueta h1 que ya existe -->
-</body>
+        <h1 id="titulo">Título</h1>
+        <button onclick="cambiarFondo();">Cambiar fondo</button>
+        <button onclick="crecerImagen();">Crecer Imagen</button>
+        <button onclick="saludar()">Saludar</button>
+        <img id="imagen" src="https://media.istockphoto.com/photos/blue-open-sea-environmenttravel-and-nature-concept-picture-id1147989465?k=20&m=1147989465&s=612x612&w=0&h=nVI1UKhyr2WPZ5-gnFB3Q7jjToru4lg_ubBFx-Jomq0=" alt="">
+        <script src="app.js"></script>
+    </body>
 
 </html>
