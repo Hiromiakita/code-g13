@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body id="body">
-    <h1>Js + HTML</h1>
+    <h1 id="encabezado" onclick="modificarEncabezado();">Js + HTML</h1>
 
     <input type="button" value="Saludar" name="saludo" onclick="saludarUsuario();">
     
@@ -16,9 +16,12 @@
 
     <p onclick="elevarAlCuadrado(3);">Elevar al Cuadrado</p>
 
-    <img onclick="cambiarTamanio();" src="https://media.istockphoto.com/photos/blue-open-sea-environmenttravel-and-nature-concept-picture-id1147989465?k=20&m=1147989465&s=612x612&w=0&h=nVI1UKhyr2WPZ5-gnFB3Q7jjToru4lg_ubBFx-Jomq0=" alt="">
+    <img id="imagen" onclick="cambiarTamanio();" src="https://media.istockphoto.com/photos/blue-open-sea-environmenttravel-and-nature-concept-picture-id1147989465?k=20&m=1147989465&s=612x612&w=0&h=nVI1UKhyr2WPZ5-gnFB3Q7jjToru4lg_ubBFx-Jomq0=" alt="">
 
     <button onclick="cambiarFondo();">Cambiar fondo</button>
+    <button onclick="cambiarImagen();">Cambiar imagen</button>
+    <button onclick="cambiarSitioWeb();">Cambiar sitio web</button>
+    <a id="enlace" href="https://www.google.com">Ir a sitio web</a>
 
     <script src="main.js"></script>
 </body>
