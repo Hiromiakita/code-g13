@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,27 +8,36 @@
     <title>Nodos</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <h1 id="titulo">NODOS</h1>
 
     <div>
         <h2>Subtítulo</h2>
         <p>Párrafo 1</p>
-        <button>Ver más</button>
+        <button class="button-card">Ver más</button>
     </div>
 
     <div>
-        <h2>Subtítulo</h2>
+        <h2 id="s2" onclick="cambiarEstilos();">Subtítulo</h2>
         <p>Párrafo 2</p>
-        <button>Ver más</button>
+        <button class="button-card">Ver más</button>
     </div>
 
     <div>
-        <h2>Subtítulo</h2>
+        <h2 id="s3" onclick="ocultarElemento()">Subtítulo</h2>
         <p>Párrafo 3</p>
-        <button>Ver más</button>
+        <button class="button-card">Ver más</button>
     </div>
-    
+
+    <div>
+        <button class="button-page">Salir</button>
+        <button class="button-page">Actualizar</button>
+        <button class="button-page" onclick="habilitar(true);">Deshabilitar</button>
+        <button class="button-page" onclick="habilitar(false);">Habilitar</button>
+    </div>
+
     <script src="main.js"></script>
 </body>
+
 </html>
