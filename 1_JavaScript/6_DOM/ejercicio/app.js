@@ -9,7 +9,7 @@ function cambiarFondo () {
 
 function crecerImagen () {
     let altura = document.getElementById("imagen").height;
-    altura += altura +50;
+    altura += altura + 50;
     document.getElementById("imagen").height = altura;
 }
 
