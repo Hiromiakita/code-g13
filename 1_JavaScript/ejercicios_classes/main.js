@@ -56,10 +56,36 @@ let manuel = new Persona("Manuel Chavez Rosario", "12/12/84", "H", 70, 1.70)
 
 class Cuenta {
   constructor(titular, cantidad) {
-    this.titular = titular
-    this.cantidad = cantidad
+      this.titular = titular;
+      this.cantidad = cantidad;
   }
-
-  
+  ingresar(cantidad) {
+      if (this.cantidad + cantidad > 900) {
+          return "Estas superando el limite de $900; operacion cancelada";
+      } else {
+          this.cantidad += cantidad;
+          return "Operacion exitosa: Tu saldo es de " + this.cantidad;
+      }
+  }
+  retirar(cantidad) {
+      if (this.cantidad - cantidad < 10) {
+          return "No tienes fondos suficientes; el minimo es de $10";
+      } else {
+          this.cantidad -= cantidad;
+          return (
+              "Has retirado $" +
+              cantidad +
+              ". Tu nuevo saldo es de: " +
+              this.cantidad
+          );
+      }
+  }
 }
+
+let cuenta = new Cuenta("Manuel Tejada", 350);
+console.log(cuenta.cantidad);
+console.log(cuenta.retirar(400));
+console.log(cuenta.ingresar(1000));
+console.log(cuenta.retirar(50));
+console.log(cuenta.ingresar(100));
 
